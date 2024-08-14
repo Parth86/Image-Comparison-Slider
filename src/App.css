@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.slider {
+  width: 5px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  opacity: 0.1;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  cursor: ew-resize;
+
+}
