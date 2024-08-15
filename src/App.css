@@ -8,6 +8,7 @@ body {
   position: relative;
   overflow: hidden;
   border: 1px solid;
+  max-width: fit-content;
 }
 
 .overlay {
@@ -15,6 +16,10 @@ body {
   left: 0;
   top: 0;
   overflow: hidden;
+}
+
+.overlay img {
+  filter: blur(4px);
 }
 
 .slider {
